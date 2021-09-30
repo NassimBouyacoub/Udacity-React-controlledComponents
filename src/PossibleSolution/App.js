@@ -8,7 +8,7 @@ class App extends Component {
   };
 
   handleChange = event => {
-    this.setState({ value: event.target.value });
+    this.setState=({ value: event.target.value }); 
   };
 
   render() {
